@@ -3,6 +3,7 @@ class Money {
         this.amount = amount
         this.currency = currency
     }
+   
     toPOJO() {       
         return{
             amount: this.amount,

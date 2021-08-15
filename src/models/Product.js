@@ -2,14 +2,13 @@ import Attributes from "./Attributes";
 import Money from "./Money";
 
 class Product {
-    constructor(id, name, imageUrls, description, amount, currency, attributes ) {
+    constructor(id, name, imageUrls, money, attributes, description) {
         this.id = id
         this.name = name
         this.imageUrls = imageUrls
+        this.money = money
+        this.attributes = attributes
         this.description = description
-        this.amount = amount
-        this.currency = currency
-        this.attributes = attributes 
     }
     
     // toPOJO() {
